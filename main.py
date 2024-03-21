@@ -17,11 +17,10 @@ except:
 script_directory = os.path.dirname(os.path.abspath(__file__))
 txt_file_path = [os.path.join(script_directory, "applications_id.txt"), os.path.join(script_directory, "Token.txt")]
 
-f = open(txt_file_path[0], "r")
-my_application_id = f.read()
+my_application_id = '1218953039285588118'
 
-f = open(txt_file_path[1], "r")
-my_Token = f.read()
+my_Token = 'MTIxODk1MzAzOTI4NTU4ODExOA.GlVstZ.-e4JeJZ_vynE998-juO-RWZn7cDpPFH_U6wv-4'
+
 
 class main(commands.Bot):
     def __init__(self):
