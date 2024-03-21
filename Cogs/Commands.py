@@ -299,6 +299,7 @@ class Commands(commands.Cog):
         embed.set_footer(text="TIMESTEAMP")
         embed.timestamp = datetime.now()
         await interaction.followup.send(embed=embed, ephemeral=True)
+        if self.channel is not None: await self.channel.send(embed=embed)
 
         self.edit_data.append(True)
         return
