@@ -17,9 +17,9 @@ except:
 script_directory = os.path.dirname(os.path.abspath(__file__))
 txt_file_path = [os.path.join(script_directory, "applications_id.txt"), os.path.join(script_directory, "Token.txt")]
 
-my_application_id = '1218953039285588118'
+my_application_id = ',,,'
 
-my_Token = 'MTIxODk1MzAzOTI4NTU4ODExOA.GlVstZ.-e4JeJZ_vynE998-juO-RWZn7cDpPFH_U6wv-4'
+my_Token = ',,,'
 
 
 class main(commands.Bot):
